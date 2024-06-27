@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/emin.goroglu/RiderProjects/Devnet.GetFinanceData/Devnet.GetFinanceData/Devnet.GetFinanceData.csproj": {}
+  },
+  "projects": {
+    "/Users/emin.goroglu/RiderProjects/Devnet.GetFinanceData/Devnet.GetFinanceData/Devnet.GetFinanceData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/emin.goroglu/RiderProjects/Devnet.GetFinanceData/Devnet.GetFinanceData/Devnet.GetFinanceData.csproj",
+        "projectName": "Devnet.GetFinanceData",
+        "projectPath": "/Users/emin.goroglu/RiderProjects/Devnet.GetFinanceData/Devnet.GetFinanceData/Devnet.GetFinanceData.csproj",
+        "packagesPath": "/Users/emin.goroglu/.nuget/packages/",
+        "outputPath": "/Users/emin.goroglu/RiderProjects/Devnet.GetFinanceData/Devnet.GetFinanceData/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/emin.goroglu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.104.0-preview2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[111.3.1-alpha.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.426/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
